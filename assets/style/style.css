@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+
+
+a{
+    text-decoration: none;
+
+}
+
+a:link {
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
+
+body {
+    background:url(http://www.rgb-ltd.co.uk/images/pattern4.png);
+   text-align: center;
+	font-weight: 300;
+    font-family: 'Helvetica';
+    height: 100%;
+	margin-left: 0;
+	line-height: 24px;
+	font-size: 18px !important;
+    background-color: #e69b19;
+    position: relative;
+}
+
+#header {
+    color: #242424;
+    display: inline-block;
+    text-align: center;
+   background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    height: 265px;
+	margin-left: 0;
+}
+
+#header > h1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.logo {
+	margin-left: 0;
+
+}
+
+.description {
+    text-align: center;
+    margin: auto 0;
+   background-color:  rgba(134, 87, 5, 0.4);
+    border-radius: 5px 5px;
+    width: 100%!important;
+}
+
+.description > h2, p, img{
+    margin-top: 1em;
+    margin-bottom: -8px;
+}
+
+.description > h1{
+	font-size: 38px;
+	line-height: 44px;
+    margin-top: 22px;
+}
+.description > h2 {
+	font-size: 24px;
+	line-height: 40px;
+}
+.description > p {
+    background-color: rgba(134, 87, 5, 0.4);
+    border: solid 1px black;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+.description > img {
+    width: 200px;
+    height: 180px;
+    
+}
+
+mark{
+    background-color: #b86b00;
+    color: #fff;
+    display: inline-block;
+    margin-top: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px 4px;
+}
+
+.coding {
+    background-color: rgba(0, 0, 0, 0.59);
+   color: rgb(230, 155, 25);
+   height: 200px;
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+   display: inline-block;
+    margin-top: 1em;
+    border-radius: 8px 8px;
+    padding: 10px 10px;
+    overflow: scroll;
+    min-width: 340px;
+    
+    
+}
