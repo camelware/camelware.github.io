@@ -1,2 +1,2 @@
-# cameldev.github.io
-Camel Programing Langauge 
+# camelsoft.github.io
+CamelSoft Programing Community
