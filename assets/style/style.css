@@ -124,6 +124,11 @@ body {
     
 }
 
+.arrow {
+    color: black;
+    font-weight: bolder;
+}
+
 mark{
     background-color: #b86b00;
     color: #fff;
