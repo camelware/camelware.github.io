@@ -1,3 +1,3 @@
-# camelsoft.github.io
-CamelSoft Programing Community
+# devcamel.github.io
+Camel Programing Community
 Index/
