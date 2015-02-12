@@ -93,9 +93,10 @@ body {
 .description {
     text-align: center;
     margin: auto 0;
-   background-color:  rgba(134, 87, 5, 0.4);
+    background-color:  rgba(134, 87, 5, 0.4);
     border-radius: 5px 5px;
     width: 100%!important;
+    box-shadow: 0px 0px 14px 3px #000;
 }
 
 .description > h2, p, img{
