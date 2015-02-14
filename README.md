@@ -1,3 +1,3 @@
-# devcamel.github.io
+# camelware.github.io
 Camel Programing Community
 Index/
