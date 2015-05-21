@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="page">
+{% if page.step %}
+  <span class="step">{{ page.step }}</span>
+{% endif %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+  <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}, licensed under <a href="https://twitter.com/juthilo" target="_blank">CC-BY-3.0</a>.
+</div>

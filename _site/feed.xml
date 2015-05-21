@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camelware Community</title>
+    <description></description>
+    <link>http://Camelware.github.io//</link>
+    <atom:link href="http://Camelware.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 May 2015 17:03:51 +0300</pubDate>
+    <lastBuildDate>Thu, 21 May 2015 17:03:51 +0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>

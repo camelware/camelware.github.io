@@ -1,0 +1,18 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Camelware Community'
+url:              http://Camelware.github.io
+baseurl:          /
+
+github:
+  repo:           https://github.com/Camelware
+
+author:
+  name:           'Camel Community'
+  url:            camelware.github.io

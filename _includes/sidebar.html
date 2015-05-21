@@ -1,0 +1,28 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+    <a href="/"><img src="/public/img/logo.png" alt="" id="logo"></a>
+      <h1>{{ site.title }}</h1>
+      <p class="lead">Atla Deve değil ya! <a href="{{ site.github.repo }}">@GitHub</a></p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/">Anasayfa</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.step == 1 %} active{% endif %}">
+        <a href="/camelipsum">Camel Ipsum</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.step == 2 %} active{% endif %}">
+        <a href="/arabtheme">Arab Theme</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.step == 3 %} active{% endif %}">
+        <a href="/nazimhikmetrun">Nazim Hikmet.run()</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.step == 4 %} active{% endif %}">
+        <a href="/cameltheme">Camel Theme</a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
